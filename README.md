@@ -1,1 +1,1 @@
-https://github.com/Skyuzu15/Single-Page-CV#
+https://github.com/Skyuzu15/Single-Page-CV.git
