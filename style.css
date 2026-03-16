@@ -1,0 +1,118 @@
+/* Reset básico - remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;  /* fonte simples e profissional */
+    line-height: 1.5;  /* espaçamento entre linhas */
+    max-width: 700px;  /* largura máxima igual ao template */
+    margin: 40px auto;  /* centraliza na página */
+    padding: 20px;  /* espaçamento interno */
+    color: #333;  /* cor do texto (cinza escuro, não preto puro) */
+}
+
+/* Nome principal */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Subtítulo (Junior Frontend Developer) */
+header p {
+    font-size: 18px;
+    color: #2c3e50;  /* azul acinzentado */
+    font-weight: 600;  /* meio negrito */
+    margin-bottom: 20px;
+}
+
+/* Informações de contato - igual ao template */
+address {
+    font-style: normal;  /* remove itálico padrão do address */
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Links de email e telefone */
+address a {
+    color: #333;
+    text-decoration: none;  /* remove sublinhado */
+}
+
+address a:hover {
+    text-decoration: underline;  /* sublinha ao passar o mouse */
+}
+
+/* Títulos das seções (Skills, Education, Experience, Across the Internet) */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;  /* linha embaixo igual ao template */
+    text-transform: uppercase;  /* letras maiúsculas */
+    letter-spacing: 1px;  /* espaçamento entre letras */
+}
+
+/* Títulos dos empregos/educação */
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+/* Datas */
+article p strong {
+    color: #666;
+    font-weight: normal;  /* remove negrito */
+    font-style: italic;  /* itálico sutil */
+    margin-bottom: 8px;
+    display: block;  /* faz a data ficar em linha própria */
+}
+
+/* Listas de conquistas */
+ul {
+    margin: 8px 0 15px 25px;  /* identação igual ao template */
+    color: #444;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+/* Skills usadas nas empresas */
+article p em {
+    font-style: italic;
+    color: #555;
+}
+
+/* Rodapé com links sociais */
+footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #0066cc;  /* azul de link */
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Parágrafos normais */
+p {
+    margin-bottom: 10px;
+}
